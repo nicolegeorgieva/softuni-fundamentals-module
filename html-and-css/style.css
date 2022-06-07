@@ -1,0 +1,25 @@
+h1 {
+    color: #18c96d;
+    background-color: #dedadabf;
+    font-size: 50px;
+    margin: 0;
+}
+
+h2 {
+    background-color: #ff9249;
+    color: white;
+    margin: 0;
+}
+
+.red-text {
+    color: red;
+}
+
+ul ol li {
+    color: #ff9249;
+}
+
+div {
+    background-color: steelblue;
+    color: white;
+}
