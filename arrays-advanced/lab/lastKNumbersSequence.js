@@ -8,7 +8,7 @@ function lastKNumbersSequence(n, k) {
 
     function previousNumbers(arr, k) {
         let arrCopy = arr.slice(0, arr.length)
-        return arrCopy.reverse().slice(0, k).reverse();
+        return arrCopy.slice(-k);
     }
 
     function generateElement(previousNumbersArr) {
