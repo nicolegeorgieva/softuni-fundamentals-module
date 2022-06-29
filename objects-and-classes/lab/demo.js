@@ -5,11 +5,11 @@ function demo() {
         sayHello: function () {
             console.log('Hello');
         }
-    }
+    };
 
     myObj.town = 'Sofia';
 
     console.log(myObj);
-}
+};
 
 demo();
