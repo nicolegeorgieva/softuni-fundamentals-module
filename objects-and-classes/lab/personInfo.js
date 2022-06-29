@@ -1,4 +1,4 @@
-function personInfo(firstName, lastName, age) {
+function studentInfo(firstName, lastName, age) {
     return {
         firstName,
         lastName,
@@ -6,4 +6,4 @@ function personInfo(firstName, lastName, age) {
     };
 };
 
-console.log(personInfo('Nicole', 'Georgieva', '23'));
+console.log(studentInfo('Nicole', 'Georgieva', '23'));
