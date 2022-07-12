@@ -4,6 +4,7 @@ function perfectNumber(number) {
 
     if (num < 0) {
         print("It's not so perfect.");
+        return;
     }
 
     sumOfPositiveDivisors(num);
