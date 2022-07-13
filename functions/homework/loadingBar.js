@@ -4,15 +4,12 @@ function loadingBar(number) {
         let arr = [];
         let final = [];
 
-        for (let i = 1; i <= number; i += 10) {
-
+        for (let i = 10; i <= number; i += 10) {
             arr += '%';
         }
 
-        if (arr !== '%%%%%%%%%%') {
-            for (let j = number; j < 100; j += 10) {
-                final += '.';
-            }
+        for (let j = number; j < 100; j += 10) {
+            final += '.';
         }
 
         print(`${number}% [${arr}${final}]`);
